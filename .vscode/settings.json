@@ -27,6 +27,13 @@
             "database": "hospital_database",
             "username": "root",
             "password": "Misty#78182"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "healthcare-insights",
+            "database": "${workspaceFolder:healthcare-facility-insights}/hospital_insights.db"
         }
-    ]
+    ],
+    "sqltools.useNodeRuntime": true
 }
