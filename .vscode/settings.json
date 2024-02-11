@@ -15,24 +15,58 @@
             "username": "root"
         },
         {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "healthcare-insights",
+            "database": "${workspaceFolder:healthcare-facility-insights}/hospital_insights.db"
+        },
+        {
             "mysqlOptions": {
                 "authProtocol": "default",
                 "enableSsl": "Disabled"
             },
             "previewLimit": 50,
-            "server": "localhost",
+            "server": "usd-ads-507.mysql.database.azure.com",
             "port": 3306,
             "driver": "MySQL",
-            "name": "ADS507-FinalProject",
-            "database": "hospital_database",
-            "username": "root",
-            "password": "Misty#78182"
+            "name": "tpch",
+            "database": "tpch",
+            "username": "student",
+            "password": "ads507password"
         },
         {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Enabled",
+                "ssl": {
+                    "ca": "/Users/samantharivas/Documents/DigiCertGlobalRootCA.crt.pem"
+                }
+            },
             "previewLimit": 50,
-            "driver": "SQLite",
-            "name": "healthcare-insights",
-            "database": "${workspaceFolder:healthcare-facility-insights}/hospital_insights.db"
+            "server": "ads507finalproject.mysql.database.azure.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "username": "jeremiahf24",
+            "password": "$ads507password",
+            "database": "ads507final",
+            "name": "healthcare-insights"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Enabled",
+                "ssl": {
+                    "ca": "/Users/samantharivas/Documents/DigiCertGlobalRootCA.crt.pem"
+                }
+            },
+            "previewLimit": 50,
+            "server": "ads507finalproject.mysql.database.azure.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "healthcare-inisghts",
+            "username": "jeremiahf24",
+            "database": "ads507final",
+            "password": "$ads507password"
         }
     ],
     "sqltools.useNodeRuntime": true
