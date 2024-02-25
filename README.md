@@ -1,10 +1,16 @@
 # Healthcare Facility Insights Platform 
-This repository contains the code for a comprehensive healthcare facility insights platform developed using data obtained from the Community Benefit Insight. The primary objectives of the project are to create a production-ready data pipeline that regularly updates, cleans, and analyzes hospital data. Additionally, it provides a user-friendly dashboard for stakeholders to access real-time information about healthcare facilities such as KPI and hospital capacity overview, aiding in strategic decision-making and resource allocation.
+This repository contains the code for a comprehensive healthcare facility insights platform developed using data obtained from the Community Benefit Insight. The platform provides real-time information about healthcare facilities, aiding stakeholders in strategic decision-making and resource allocation.
 
 ## Contributors 
 Claire Bentzen, Jeremiah Fa’Atiliga, and Samantha Rivas
 
-## Installation 
+## Overview
+The repository consists of the following components:
+- Python scripts for data extraction, transformation, and loading (ETL)
+- SQL scripts for data transformation and loading into a MySQL database
+- Power BI visualization files for dashboard creation
+
+## Deployment Process
 1. Clone this repository to your local machine:
    git clone https://github.com/clairebentzen/healthcare-facility-insights.git
 
