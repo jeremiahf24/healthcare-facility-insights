@@ -33,6 +33,11 @@ The repository consists of the following components:
 - Data Pipeline
 - Data visulaization (Power BI and Folium)
 
+## Monitoring Pipeline
+1. Periodically re-evaluate the source data for changes.
+2. Ensure records are loading into the tables correctly by referencing try/except rollback errors.
+3. Implement a logging system.
+
 ## Refrences
 Community Benefit Insight Hospital Data API (http://www.communitybenefitinsight.org/api/get_hospitals.php)
 Bing Maps API
